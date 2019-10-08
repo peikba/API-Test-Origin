@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Soap:Envelope xmlns:Soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <Soap:Body>
+        <ReadMultiple_Result xmlns="urn:microsoft-dynamics-schemas/page/wscustomersoap">
+            <ReadMultiple_Result>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDAAMQAxADIAMQAyADEAMg==6;2385930;</Key>
+                    <No>01121212</No>
+                    <Name>Spotsmeyer's Furnishings</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDAAMQA0ADQANQA1ADQANA==6;2385950;</Key>
+                    <No>01445544</No>
+                    <Name>Progressive Home Furnishings</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>1499.03</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDAAMQA0ADUANAA1ADQANQ==6;2385970;</Key>
+                    <No>01454545</No>
+                    <Name>New Concepts Furniture</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDAAMQA5ADAANQA4ADkAMw==6;2385990;</Key>
+                    <No>01905893</No>
+                    <Name>Candoxy Canada Inc.</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDAAMQA5ADAANQA4ADkAOQ==6;2386010;</Key>
+                    <No>01905899</No>
+                    <Name>Elkhorn Airport</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDAAMQA5ADAANQA5ADAAMg==6;2386030;</Key>
+                    <No>01905902</No>
+                    <Name>London Candoxy Storage Campus</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>24;EgAAAAJ7BTEAMAAwADAAMA==6;2389560;</Key>
+                    <No>10000</No>
+                    <Name>The Cannon Group PLC</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>17100.96</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>24;EgAAAAJ7BTIAMAAwADAAMA==6;2386070;</Key>
+                    <No>20000</No>
+                    <Name>Selangorian Ltd.</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>6510.64</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDIAMAAzADAAOQA5ADIAMA==6;2386090;</Key>
+                    <No>20309920</No>
+                    <Name>Metatorad Malaysia Sdn Bhd</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDIAMAAzADEAMgA5ADEAMg==6;2386110;</Key>
+                    <No>20312912</No>
+                    <Name>Highlights Electronics Sdn Bhd</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDIAMAAzADMAOQA5ADIAMQ==6;2386130;</Key>
+                    <No>20339921</No>
+                    <Name>TraxTonic Sdn Bhd</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDIAMQAyADMAMwA1ADcAMg==6;2386150;</Key>
+                    <No>21233572</No>
+                    <Name>Somadis</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDIAMQAyADQANQAyADcAOA==6;2386170;</Key>
+                    <No>21245278</No>
+                    <Name>Maronegoce</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDIAMQAyADUAMgA5ADQANw==6;2386190;</Key>
+                    <No>21252947</No>
+                    <Name>ElectroMAROC</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDIANwAwADkAMAA5ADEANw==6;2386210;</Key>
+                    <No>27090917</No>
+                    <Name>Zanlan Corp.</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDIANwAzADIAMQA3ADgAMg==6;2386230;</Key>
+                    <No>27321782</No>
+                    <Name>Karoo Supermarkets</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDIANwA0ADgAOQA5ADkAMQ==6;2386250;</Key>
+                    <No>27489991</No>
+                    <Name>Durbandit Fruit Exporters</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>24;EgAAAAJ7BTMAMAAwADAAMA==6;2386270;</Key>
+                    <No>30000</No>
+                    <Name>John Haddock Insurance Co.</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>6142.9</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDMAMQA1ADAANQAwADUAMA==6;2386290;</Key>
+                    <No>31505050</No>
+                    <Name>Woonboulevard Kuitenbrouwer</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDMAMQA2ADYAOQA5ADYANg==6;2386310;</Key>
+                    <No>31669966</No>
+                    <Name>Meersen Meubelen</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDMAMQA5ADgANwA5ADgANw==6;2386330;</Key>
+                    <No>31987987</No>
+                    <Name>Candoxy Nederland BV</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDMAMgAxADIANAA1ADcAOA==6;2386350;</Key>
+                    <No>32124578</No>
+                    <Name>Nieuwe Zandpoort NV</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDMAMgA2ADUANgA1ADYANQ==6;2386370;</Key>
+                    <No>32656565</No>
+                    <Name>Antarcticopy</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>2582.8</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDMAMgA3ADgAOQA0ADUANg==6;2386390;</Key>
+                    <No>32789456</No>
+                    <Name>Lovaina Contractors</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDMAMwAwADAAMAAwADEAOQ==6;2386410;</Key>
+                    <No>33000019</No>
+                    <Name>Francematic</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDMAMwAwADAAMgA5ADgANA==6;2386430;</Key>
+                    <No>33002984</No>
+                    <Name>Parmentier Boutique</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDMAMwAwADIAMgA4ADQAMg==6;2386450;</Key>
+                    <No>33022842</No>
+                    <Name>Livre Importants</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDMANAAwADEAMAAxADAAMA==6;2386470;</Key>
+                    <No>34010100</No>
+                    <Name>Libros S.A.</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDMANAAwADEAMAAxADkAOQ==6;2386490;</Key>
+                    <No>34010199</No>
+                    <Name>Corporación Beta</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDMANAAwADEAMAA2ADAAMg==6;2386510;</Key>
+                    <No>34010602</No>
+                    <Name>Helguera industrial</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDMANQAxADIAMgAxADEAMg==6;2386530;</Key>
+                    <No>35122112</No>
+                    <Name>Bilabankinn</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDMANQA0ADUAMQAyADMANg==6;2386550;</Key>
+                    <No>35451236</No>
+                    <Name>Gagn &amp; Gaman</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>877.32</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDMANQA5ADYAMwA4ADUAMg==6;2386570;</Key>
+                    <No>35963852</No>
+                    <Name>Heimilisprydi</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>2024.21</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDMAOAAxADIAOAA0ADUANg==6;2386590;</Key>
+                    <No>38128456</No>
+                    <Name>MEMA Ljubljana d.o.o.</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDMAOAA1ADQANgA1ADUAMg==6;2386610;</Key>
+                    <No>38546552</No>
+                    <Name>EXPORTLES d.o.o.</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDMAOAA2ADMAMgAxADQANw==6;2386630;</Key>
+                    <No>38632147</No>
+                    <Name>Centromerkur d.o.o.</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>24;EgAAAAJ7BTQAMAAwADAAMA==6;2386650;</Key>
+                    <No>40000</No>
+                    <Name>Deerfield Graphics Company</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>1063.1</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDQAMQAyADMAMQAyADEANQ==6;2386670;</Key>
+                    <No>41231215</No>
+                    <Name>Sonnmatt Design</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDQAMQA0ADkANwA2ADQANw==6;2386690;</Key>
+                    <No>41497647</No>
+                    <Name>Pilatus AG</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDQAMQA1ADkANwA4ADMAMg==6;2386710;</Key>
+                    <No>41597832</No>
+                    <Name>Möbel Scherrer AG</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDQAMgAxADQANwAyADUAOA==6;2386730;</Key>
+                    <No>42147258</No>
+                    <Name>BYT-KOMPLET s.r.o.</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>1602.9</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDQAMgAyADUAOAAyADUAOA==6;2386750;</Key>
+                    <No>42258258</No>
+                    <Name>J &amp; V v.o.s.</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDQAMgAzADYAOQAxADQANw==6;2386770;</Key>
+                    <No>42369147</No>
+                    <Name>PLECHKONSTRUKT a.s.</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDQAMwA2ADgANwAxADIAOQ==6;2386790;</Key>
+                    <No>43687129</No>
+                    <Name>Designstudio Gmunden</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>13732.6</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDQAMwA4ADUAMgAxADQANw==6;2386810;</Key>
+                    <No>43852147</No>
+                    <Name>Michael Feit - Möbelhaus</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDQAMwA4ADcAMQAxADQANA==6;2386830;</Key>
+                    <No>43871144</No>
+                    <Name>Möbel Siegfried</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDQANAAxADcAMQA1ADEAMQ==6;2167370;</Key>
+                    <No>44171511</No>
+                    <Name>Zuni Home Crafts Ltd.</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDQANAAxADgAMAAyADIAMA==6;2167100;</Key>
+                    <No>44180220</No>
+                    <Name>Afrifield Corporation</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDQANAA3ADUANgA0ADAANA==6;2167640;</Key>
+                    <No>44756404</No>
+                    <Name>London Light Company</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDQANQAyADgAMgA4ADIAOA==6;2386850;</Key>
+                    <No>45282828</No>
+                    <Name>Candoxy Kontor A/S</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDQANQAyADgAMgA4ADIAOQ==6;2386870;</Key>
+                    <No>45282829</No>
+                    <Name>Carl Anthony</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDQANQA3ADcAOQA5ADcANw==6;2386890;</Key>
+                    <No>45779977</No>
+                    <Name>Ravel Møbler</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDQANQA5ADcAOQA3ADkANw==6;2386910;</Key>
+                    <No>45979797</No>
+                    <Name>Lauritzen Kontormøbler A/S</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDQANgAyADUAMQA0ADIANQ==6;2386930;</Key>
+                    <No>46251425</No>
+                    <Name>Marsholm Karmstol</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDQANgA1ADIANQAyADQAMQ==6;2386950;</Key>
+                    <No>46525241</No>
+                    <Name>Konberg Tapet AB</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDQANgA4ADkANwA4ADgAOQ==6;2386970;</Key>
+                    <No>46897889</No>
+                    <Name>Englunds Kontorsmöbler AB</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>673.71</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDQANwA1ADIAMwA2ADgANw==6;2386990;</Key>
+                    <No>47523687</No>
+                    <Name>Slubrevik Senger AS</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDQANwA1ADYAMwAyADEAOA==6;2387010;</Key>
+                    <No>47563218</No>
+                    <Name>Klubben</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>11772.2</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDQANwA1ADgANgA5ADUANA==6;2387030;</Key>
+                    <No>47586954</No>
+                    <Name>Sjøboden</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDQAOQA1ADIANQAyADUAMg==6;2389500;</Key>
+                    <No>49525252</No>
+                    <Name>Beef House</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>6000</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDQAOQA2ADMAMwA2ADYAMw==6;2389520;</Key>
+                    <No>49633663</No>
+                    <Name>Autohaus Mielberg KG</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>4331.4</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>32;EgAAAAJ7CDQAOQA4ADUAOAA1ADgANQ==6;2389540;</Key>
+                    <No>49858585</No>
+                    <Name>Hotel Pferdesee</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>14395.75</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>24;EgAAAAJ7BTUAMAAwADAAMA==6;2389580;</Key>
+                    <No>50000</No>
+                    <Name>Guildford Water Department</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>533.4</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>24;EgAAAAJ7BTYAMAAwADAAMA==6;2388990;</Key>
+                    <No>60000</No>
+                    <Name>Blanemark Hifi Shop</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>24;EgAAAAJ7BTYAMQAwADAAMA==6;2389010;</Key>
+                    <No>61000</No>
+                    <Name>Fairway Sound</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>24;EgAAAAJ7BTYAMgAwADAAMA==6;2389030;</Key>
+                    <No>62000</No>
+                    <Name>The Device Shop</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>24;EgAAAAJ7/0kAQwAxADAAMgAw6;2387130;</Key>
+                    <No>IC1020</No>
+                    <Name>Cronus Cardoxy Sales</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+                <WSCustomerSOAP>
+                    <Key>24;EgAAAAJ7/0kAQwAxADAAMwAw6;2387150;</Key>
+                    <No>IC1030</No>
+                    <Name>Cronus Cardoxy Procurement</Name>
+                    <Date_Filter>0001-01-01</Date_Filter>
+                    <Sales_LCY>0</Sales_LCY>
+                </WSCustomerSOAP>
+            </ReadMultiple_Result>
+        </ReadMultiple_Result>
+    </Soap:Body>
+</Soap:Envelope>
