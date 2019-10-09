@@ -23,6 +23,10 @@ report 50100 "DIR Consume SOAP WS"
         BalanceLCY: Decimal;
         RootNode: XmlNode;
         NamespaceMgr: XmlNamespaceManager;
+        AuthTxt: Text;
+        UserName: Text;
+        Password: Text;
+        TempBlob: Record TempBlob;
 
     begin
         // Prepare the XML Request message 
@@ -40,7 +44,9 @@ report 50100 "DIR Consume SOAP WS"
                     '</soap:Envelope>';
         // Set the URL
         Url := 'http://navtraining:7047/BC140/WS/CRONUS%20International%20Ltd./Page/WSCustomerSOAP';
-
+        // Use Windows authentication
+        UserName := '';
+        Password := '';
         // Prepare the Request message and the Respons message
         HttpRequestMessage.SetRequestUri(URL);
         HttpRequestMessage.Method('POST');
@@ -51,7 +57,15 @@ report 50100 "DIR Consume SOAP WS"
         HttpRequestMessage.Content := HttpContent;
         HttpRequestMessage.GetHeaders(HttpHeaders);
         HttpHeaders.Add('SOAPAction', 'urn:microsoft-dynamics-schemas/page/WSCustomerSOAP');
-        HttpClient.UseWindowsAuthentication('Admin', '1<3VScode', 'NavTraining');
+        // Basic authentication 
+        if UserName <> '' then begin
+            AuthTxt := strsubstno('%1:%2', UserName, Password);
+            TempBlob.WriteAsText(AuthTxt, TextEncoding::Windows);
+            HttpHeaders.Add('Authorization', StrSubstNo('Basic %1', TempBlob.ToBase64String()));
+        end else begin
+            // Windows Authentication
+            HttpClient.UseWindowsAuthentication('Admin', '1<3VScode', 'NavTraining');
+        end;
         HttpClient.send(HttpRequestMessage, HttpResponse);
 
         // Handle the result
@@ -62,7 +76,7 @@ report 50100 "DIR Consume SOAP WS"
             HttpResponse.Content().ReadAs(XMLtext);
             XMLoptions.PreserveWhitespace := false;
             XmlDocument.ReadFrom(xmlText, XMLoptions, XMLDoc);
-            error('%1',XMLDoc);
+            error('%1', XMLDoc);
             RootNode := XMLDoc.AsXmlNode();
             NamespaceMgr.NameTable(RootNode.AsXmlDocument().NameTable);
             NamespaceMgr.AddNamespace('soap', 'http://schemas.xmlsoap.org/soap/envelope/');
