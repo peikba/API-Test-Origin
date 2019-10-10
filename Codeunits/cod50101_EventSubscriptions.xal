@@ -1,8 +1,0 @@
-codeunit 50101 "DIR Event Subscriptions"
-{
-[EventSubscriber(ObjectType::Codeunit, Codeunit::"Graph Subscription Management", 'OnBeforeAddOrUpdateGraphSubscriptions', '', true, true)]
-local procedure MyProcedure()
-begin
-    
-end;
-}

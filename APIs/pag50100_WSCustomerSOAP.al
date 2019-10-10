@@ -1,36 +1,36 @@
-page 50100  "DIR WS Customer SOAP"
+page 50100 "DIR WS Customer SOAP"
 {
     PageType = Card;
     ApplicationArea = All;
     UsageCategory = Administration;
     SourceTable = Customer;
-    Caption='WS Customer SOAP';
-    
+    Caption = 'WS Customer SOAP';
+
     layout
     {
         area(Content)
         {
             group(GroupName)
             {
-                field("No.";"No.")
+                field("No."; "No.")
                 {
                     ApplicationArea = All;
-                    
+
                 }
-                field(Name;Name)
+                field(Name; Name)
                 {
                     ApplicationArea = All;
-                    
+
                 }
-                field("Date Filter";"Date Filter")
+                field("Date Filter"; "Date Filter")
                 {
                     ApplicationArea = All;
-                    
+
                 }
-                field("Sales (LCY)";"Sales (LCY)")
+                field("Sales (LCY)"; "Sales (LCY)")
                 {
                     ApplicationArea = All;
-                    
+
                 }
             }
         }

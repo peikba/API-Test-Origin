@@ -1,4 +1,4 @@
-report 50103 "DIR Consume OData SB WS"
+report 50102 "DIR Consume OData SB WS"
 {
     Caption = 'Consume OData SB WS';
     UsageCategory = ReportsAndAnalysis;
